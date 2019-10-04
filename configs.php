@@ -3,7 +3,17 @@
 	$username = "postgres";
 	$pass = "Tyler$0ft";
 	$myDB = "MediTech";
-	//$var = "M1234";
+	$pid = "M1234";
+
+	$myObj->name = "John";
+$myObj->age = 30;
+$myObj->city = "New York";
+$myObj->processingCode = "01";
+
+$myJSON = json_encode($myObj);
+
+echo $myJSON;
+
 
 	// try {
  //        //create a connection to the database
